@@ -22,7 +22,7 @@ Ensure that React is installed on your machine.
 ### 1. Download Repository
 Clone the repository using the following command:
 ```bash
-git clone [repository_url]
+git clone https://github.com/Ramy99-dev/Planing-app.git
 ```
 ### 2. Install Dependencies
 Open the project in your preferred code editor and run the following command to install all required dependencies:
