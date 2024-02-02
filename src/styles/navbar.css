@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding: 5px;
+    background: white;
+    align-items: center;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-logo{
+    
+    width:50px;
+}
+.item{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.item>span:hover{
+    color:green;
+    
+}

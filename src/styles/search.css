@@ -1,0 +1,55 @@
+.search>input[type=text]{
+    height: 27px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    overflow-y: scroll;
+    gap:20px;
+    padding: 0;
+    background: white;
+  }
+li{
+    list-style-type: none;
+    padding: 20px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #8FBB99;
+    color:white;
+}
+.search{
+    display: flex;
+}
+.requestBtn , .cancelBtn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+}
+.requestBtn{
+    background: green;
+}
+.cancelBtn{
+    background: rgb(255, 55, 55);
+}
+.details{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-bottom: 10px;
+}
+.box{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}

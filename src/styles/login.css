@@ -1,0 +1,39 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:30px;
+    gap:10px;
+}
+.login-logo{
+    width: 50px;
+}
+input[type=password] , input[type=email]{
+    height: 30px;
+    width: 400px;
+}
+
+input[type=submit]{
+    background: #8EA604;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight: bold;
+    border: none;
+    width: 30%;
+    border-radius: 5px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+

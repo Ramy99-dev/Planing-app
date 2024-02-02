@@ -1,25 +1,5 @@
-.App{
-  display: flex;
-  flex-direction: column;
-}
-.search>input[type=text]{
-  height: 27px;
-  padding-left: 20px;
-}
-ul{
-  display: flex;
-  flex-direction: column;
-  gap:20px;
-}
-li{
-  list-style-type: none;
-  padding: 20px;
-  cursor: pointer;
-}
-li:hover{
-  background-color: #8FBB99;
-}
-.search{
-  display: flex;
- 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  font-family: "Nunito Sans", sans-serif;
+  
 }
